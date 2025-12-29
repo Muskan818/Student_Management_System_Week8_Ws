@@ -1,0 +1,16 @@
+*.jar
+*.class
+*.war
+*.ear
+*.nar
+
+.idea/
+*.iml
+*.iws
+*.ipr
+/out/
+
+/build/
+*.log
+*.temp
+/target/
