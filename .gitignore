@@ -1,36 +1,18 @@
-# Maven build output directory
+####################################
+# Build & Dependency Artifacts
+####################################
 /target/
+!/target/.gitkeep
 
-# Eclipse IDE files
-.project
-.classpath
-.settings/
-.factorypath
-.sts4-cache/
-
-# IntelliJ IDEA IDE files
-.idea/
-*.iml
-*.iws
-*.ipr
-/out/
-
-# NetBeans IDE files
-/nbproject/private/
-/build/
-/nbbuild/
-/dist/
-/nbdist/
-/.nb-gradle/
-
-# General Java class files and archives
 *.class
 *.jar
 *.war
 *.ear
 *.nar
 
-# Maven temporary files
+####################################
+# Maven
+####################################
 pom.xml.tag
 pom.xml.releaseBackup
 pom.xml.versionsBackup
@@ -39,11 +21,69 @@ release.properties
 dependency-reduced-pom.xml
 buildNumber.properties
 
-# Maven wrapper files (ignore the binary jar, keep the wrapper scripts)
-.mvn/wrapper/maven-wrapper.jar
+# Maven wrapper (keep scripts, ignore binary)
+/.mvn/wrapper/maven-wrapper.jar
 
-# Log and temporary files
+####################################
+# IDEs
+####################################
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+/out/
+
+# Eclipse
+.project
+.classpath
+.settings/
+.factorypath
+.sts4-cache/
+
+# NetBeans
+/nbproject/private/
+/build/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+####################################
+# Logs & Runtime Files
+####################################
 logs/
 *.log
 *.tmp
+*.pid
 hs_err_pid*
+
+####################################
+# OS / Editor Junk
+####################################
+.DS_Store
+Thumbs.db
+ehthumbs.db
+*.swp
+*.swo
+*~
+
+####################################
+# Database / Secrets
+####################################
+# Ignore local DB configs & credentials
+*.env
+application-local.properties
+application-dev.properties
+
+####################################
+# Test & Coverage Reports
+####################################
+/coverage/
+/test-output/
+
+####################################
+# Optional: Ignore MySQL dumps
+####################################
+*.sql
