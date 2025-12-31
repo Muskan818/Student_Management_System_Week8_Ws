@@ -23,7 +23,7 @@ public class CreateAttendanceTable {
                     "status VARCHAR(10)," +
                     "UNIQUE(student_id, course_id, date))";
             stmt.executeUpdate(sql);
-            System.out.println("TA");
+            System.out.println("Created Attendance Table...");
         }catch (SQLException e){
             e.printStackTrace();
         }
