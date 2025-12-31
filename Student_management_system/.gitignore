@@ -10,6 +10,7 @@
 
 # IntelliJ IDEA IDE files
 .idea/
+.metadata/
 *.iml
 *.iws
 *.ipr
