@@ -1,4 +1,4 @@
-package sms;
+package marks;
 
 public class GradeService {
 	

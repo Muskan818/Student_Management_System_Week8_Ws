@@ -1,4 +1,4 @@
-package sms;
+package marks;
 
 public class Marks {
 	   private int marksId;
