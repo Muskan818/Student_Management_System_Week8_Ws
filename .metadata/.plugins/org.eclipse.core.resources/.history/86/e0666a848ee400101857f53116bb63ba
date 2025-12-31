@@ -1,9 +1,0 @@
-/**
- * 
- */
-/**
- * 
- */
-module Student_management_system {
-	requires jdk.jdi;
-}
